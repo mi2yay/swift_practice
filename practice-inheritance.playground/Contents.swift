@@ -72,5 +72,10 @@ var cheetah = Cheetah()
 cheetah.run()
 
 
-//次回viewDidLoadメソッドについて
+//オプショナル整数について
+var age:Int? = 25
+print(age! + 1)
+
+var cage:Int! = 11
+print(cage + 1)
 
